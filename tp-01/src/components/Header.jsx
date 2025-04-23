@@ -1,10 +1,13 @@
 import React from 'react'
-
+import "../css/header.css"
 const header = (props) => {
   return (
-    <div>
-        <h1>Portfolio de {props.persona.nombre} {props.persona.apellido}</h1>
-    </div>
+    <header className='header'>
+      
+      <h1>Portfolio de {props.persona.nombre} {props.persona.apellido}</h1>
+      
+    
+    </header>
   )
 }
 

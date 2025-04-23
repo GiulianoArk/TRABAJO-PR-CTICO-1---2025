@@ -11,14 +11,25 @@ const persona ={
     apellido: "Calcagni",
     edad: 18,
     email: "calcagnigiuliano770@gmail.com",
+    lenguajes: ["HTML", "CSS", "JavaScript", "Java", "C#"],
     descripcion: "Estudiante de la Universidad Tecologica Nacional, cursando el segundo año de la Tecnicatura Universitaria en Programación."
-
 }
    
+const redes={
+
+    instagram: "https://www.instagram.com/giuliano.c.33/",
+
+}
+
 return (
     <>
     <Header persona={persona} />
+    
+    <>
     <Main persona={persona} />
+    </>
+
+    <Footer redes={redes}/>
     </>
 )
  
