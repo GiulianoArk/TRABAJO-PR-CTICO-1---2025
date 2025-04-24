@@ -17,7 +17,7 @@ const Footer = (props) => {
         <a href={props.redes.reddit} target="_blank">
           <FaReddit className="logoRedSocial"/>
         </a>
-        <a href={props.redes.facebook}>
+        <a href={props.redes.facebook} target="_blank">
           <FaFacebook className="logoRedSocial"/>
         </a>
         </div>

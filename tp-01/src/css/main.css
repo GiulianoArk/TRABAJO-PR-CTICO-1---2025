@@ -3,9 +3,14 @@
 .contenedorCard{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+   
 }
 
+main {
+  background-image: url('../img/360_F_208206722_WijLDfDIkoRcaFptGLdTLD8yRnTfep11.jpg');
+  background-size: cover;
+  
+}
 
 h2{
     margin: 10px;
@@ -22,7 +27,7 @@ h4{
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #ffffff49;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
     display: flex;
@@ -70,5 +75,8 @@ h4{
 
   .contenedorBtnProyectos{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
   }
