@@ -25,6 +25,7 @@ const redes={
 
 }
 
+
 return (
     <>
     <Header persona={persona} />
@@ -38,5 +39,7 @@ return (
 )
  
 }
+
+
 
 export default Home

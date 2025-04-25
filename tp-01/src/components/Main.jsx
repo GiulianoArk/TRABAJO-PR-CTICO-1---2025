@@ -1,6 +1,14 @@
 import React from "react";
 import "../css/main.css";
+
 import giulianoImg from "../img/giuliano.jpg";
+import JeremiasImg from "../img/Jermias.jpg";
+import PabloImg from "../img/Pablo.jpg";
+import messiImg from "../img/Messi.jpg";
+import AlonsoImg from "../img/Fernando-Alonso.jpg";
+
+
+
 
 const main = (props) => {
   return (
@@ -34,8 +42,53 @@ const main = (props) => {
             >
               <button class="btnProyectos">MIS PROYECTOS</button>
             </a>
+          
+         
           </div>
+
+          <h3>CLIENTES SATISFECHOS</h3>
+
+          <div className="contenedorClientes">
+        <div class="cardCliente">
+          <img src={JeremiasImg} alt="Giuliano" />
+          <div >
+            <h2>Jeremías Alvarez</h2>
+            <h4 className="sobreMi">"Me cambió la vida, gracias a su fantástico trabajo pude tener una buena página para mi negocio y sacar adelante a mi familia."</h4>
+          </div>
+    
+        </div>
+
+        <div class="cardCliente">
+          <img src={PabloImg} alt="Pablo" />
+          <div >
+            <h2>Ronnie Coleman</h2>
+            <h4 className="sobreMi">"Excelente servicio, hizo la página web de mi gimnasio y quedó todo bien, sin problemas."</h4>
+          </div>
+    
+        </div>
+
+        <div class="cardCliente">
+          <img src={messiImg} alt="Messi" />
+          <div >
+            <h2>Lionel Messi</h2>
+            <h4 className="sobreMi">"Tipaso, hizo un muy buen trabajo 10/10."</h4>
+          </div>
+    
+        </div>
+
+        <div class="cardCliente">
+          <img src={AlonsoImg} alt="Giuliano" />
+          <div >
+            <h2>Fernando Alonso</h2>
+            <h4 className="sobreMi">"Muy buen servicio."</h4>
+          </div>
+    
+        </div>
+       
+      </div>
+        
     </>
+
     </main>
   );
 };
