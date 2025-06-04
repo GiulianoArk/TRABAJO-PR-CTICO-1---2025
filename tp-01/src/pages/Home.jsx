@@ -3,27 +3,9 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
-const Home = () => {
+const Home = ({persona, redes}) => {
 
-const persona ={
 
-    nombre: "Giuliano",
-    apellido: "Calcagni",
-    edad: 18,
-    email: "calcagnigiuliano770@gmail.com",
-    lenguajes: ["HTML", "CSS", "JavaScript", "Java", "C#"],
-    descripcion: "Estudiante de la Universidad Tecologica Nacional, cursando el segundo año de la Tecnicatura Universitaria en Programación.",
-    telefono: "+54 9 381 217-3556"
-}
-   
-const redes={
-
-    instagram: "https://www.instagram.com/giuliano.c.33/",
-    github: "https://github.com/GiulianoArk",
-    facebook: "https://www.facebook.com/share/1AahcJtqFi/?mibextid=qi2Omg",
-    reddit: "https://www.reddit.com/user/its_arkhamknight/"
-
-}
 
 
 return (
